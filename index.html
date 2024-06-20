@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/media-query.css">
 
     <title> Login </title>
 
@@ -17,20 +18,43 @@
 
     <main>
 
-        <div >
+        
             
-            <form action="" method="get" autocomplete="on">
-                <p><label for="iemail"> E-mail</label></p>
-                <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
-                <p><label for="ipassword">Senha</label></p>
-                <input type="password" name="password" id="ipassword" required placeholder="sua senha" minlength="8" maxlength="30">
-            </form>
-            <input type="submit" value="Entrar">
-            <a href="#">Esqueci minha senha</a>
-            <a href="#">Criar conta</a>
+            <div id="div-form">
+            
+                <h1> Login </h1>
+                <form action="" method="get" autocomplete="on">
+                    <div class="email-senha">
+            
+                        <p><label for="iemail"> E-mail</label></p>
+                        <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail" class="input-login">
+                    </div>
+                    <div class="email-senha">
+            
+                        <p><label for="ipassword">Senha</label></p>
+                        <input type="password" name="password" id="ipassword" required placeholder="Digite sua senha" minlength="8" maxlength="30" class="input-login">
+                    </div>
+                    <div class="esquerda-direita">
+                        <a href="#" id="senha">Esqueci minha senha</a>
+                        <input type="submit" value="Entrar" id="entrar">
+            
+                    </div>
+                </form>
 
-        </div>
+                <div id="novo">
 
+                    <h2> Novo por aqui? </h2>
+
+                    <a href="#" id="criar-conta">Criar conta</a>
+
+                    
+
+
+                </div>
+                
+            </div>
+            
+    
         
     </main>
     

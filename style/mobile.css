@@ -5,9 +5,138 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    transition: all .5s;
 }
 
 main{
     width: 100vw;
     height: 100vh;
+
+    background: black url(../img/fundo.jpg) no-repeat center;
+    background-size: cover;
+
+    position: relative;
 }
+
+#div-form{
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    width: 350px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 3px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.email-senha{
+    padding: 10px 10px;
+    
+}
+
+.input-login{
+    border-radius: 2px;
+    border: 0px;
+    width: 100%;
+    height: 40px;
+    text-indent: 10px;
+    background-color: rgb(186, 186, 186);
+    
+}
+
+label{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: 100;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#entrar{
+    display: block;
+    width: 25%;
+    height: 30px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+    float: left;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.232);
+    
+
+    border: 0px;
+    border-radius: 2px;
+}
+
+#entrar:hover{
+    background-color: rgb(174, 174, 174);
+}
+
+#senha{
+    float: right;
+    height: 30px;
+    display: block;
+}
+
+.esquerda-direita{
+    margin: 10px 0px;
+    display: block;
+    height: 50px;
+    padding: 10px;
+}
+
+#novo{
+    width: 100%;
+    height: 195.5px;
+    border-top: 1px solid white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin: 15px 0px;
+}
+
+#criar-conta{
+    display: block;
+    margin: 45px auto;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    width: 50%;
+    height: 35px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.232);
+    
+
+}
+
+#criar-conta:hover{
+    background-color: rgb(174, 174, 174);
+}
+
+
+

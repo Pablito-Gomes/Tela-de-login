@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*
+
+- Telas medias (tablets 768px até 992px)
+
+- Telas largas (Laptops/desktops 992px 1200px)
+
+- Telas muito largas (tv's acima de 1200)
+
+*/
+
+@media screen and (min-width: 768px){
+
+    main{
+        background-position: left;
+    }
+
+    #div-form{
+       height: 100%;
+       width: 45%;
+    
+
+       background-image: linear-gradient(95deg, black, transparent);
+    }
+
+}
