@@ -1,35 +1,28 @@
 @charset "UTF-8";
 
-/*
+@media screen and (min-width: 768px) {
 
-- Telas medias (tablets 768px até 992px)
-
-- Telas largas (Laptops/desktops 992px 1200px)
-
-- Telas muito largas (tv's acima de 1200)
-
-*/
-
-@media screen and (min-width: 768px){
-
-    #div-form{
+    #formulario{
         width: 80%;
     }
 
     h1{
         margin: 40px 0px 10px 0px;
+
     }
 
-    form{
-        width: 50%;
+    #mover{
         float: left;
+        width: 50%;
     }
 
-    #novo{
+    
+
+    #tenho-conta{
         float: right;
         width: 50%;
-        height: 100%;
         margin-top: 0px;
+        height: 100%;
         border-radius: 0px 10px 10px 0px;
     }
 
@@ -37,29 +30,39 @@
         margin-top: 185px;
     }
 
-    .misturas{
-        margin-bottom: 15px;
+    #login{
+        height: 100%;
     }
+
+    .juntar{
+        margin-bottom: 40px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
-    
-    #div-form{
+
+    #formulario{
         width: 70%;
+       
     }
 
-    form{
+    #mover{
         float: right;
-        width: 70%;
+        margin-right: 100px;
     }
 
-    #novo{
+    input{
+        width: 100%;
+    }
+
+
+
+    #tenho-conta{
         border-radius: 10px 0px 0px 10px;
         width: 30%;
-    }
+        float: left;
 
-    #entrar{
-        width: 170px;
-        margin-left: 270px;
     }
+    
 }

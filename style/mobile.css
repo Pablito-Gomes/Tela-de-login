@@ -5,7 +5,7 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    transition: all .5s;
+    transition: all .5s ease;
 }
 
 main{
@@ -47,19 +47,28 @@ h1{
 }
 
 .input-login{
-    border-radius: 2px;
     border: 0px;
-    width: 100%;
+    width: 80%;
     height: 40px;
     text-indent: 10px;
-    background-color: #f7bff19d;
+    background-color: transparent;
     border-radius: 10px;
 }
 
-label{
-    color: white;
-    margin-left: 2px;
+.misturas{
+    display: flex;
+    background-color: #f7bff19d;
+    border-radius: 10px;
+    align-items: center;
 }
+
+span{
+    color: rgba(0, 0, 0, 0.363);
+    border-right: 1px solid rgba(0, 0, 0, 0.358);
+    padding: 5px;
+    cursor: pointer;
+}
+
 
 a{
     color: white;
@@ -70,7 +79,6 @@ a{
 
 a:hover{
     text-decoration: underline;
-    color: #52294e;
 }
 
 #entrar{
@@ -81,7 +89,7 @@ a:hover{
     font-weight: 600;
     background-color: white;
     cursor: pointer;
-    margin: 20px auto;
+    margin: 30px 0px 0px 85px;
     
 
     border: 0px;
@@ -112,7 +120,7 @@ a:hover{
 
 #novo{
     width: 100%;
-    height: 198px;
+    height: 250px;
     overflow: hidden;
     background-color: #F580EA;
     margin-top: 40px;
@@ -122,13 +130,12 @@ a:hover{
 h2{
     text-align: center;
     color: white;
-    margin: 20px 0px 10px 0px;
+    margin: 50px 0px 10px 0px;
 }
 
 #criar-conta{
     display: block;
     margin: 45px auto;
-    border-radius: 2px;
     text-align: center;
     padding: 10px;
     background-color: white;
